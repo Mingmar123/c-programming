@@ -20,12 +20,12 @@ int main() {
 float frist_num, second_num; // two floating point numbers for calculation
 int operation; // to store user choice of operation (1,2,3,4)
 // input section
-print("Enter frist name:");
+print("Please input frist name:");
 scanf("%f" , & frist_num); // read frist float number from user
-print("Enter second name:");
+print("Please input second name:");
 scanf("%f" , & second_num); // read second float number from user
 print("Enter operation:");
-scanf("%f" , & opertion); // read which operation user wants
+scanf("%d" , & opertion); // read which operation user wants
 // and -> all conditions should be true
 // or -> at least one condition should be true
 if (operation !=1 && operation !=2 && operation != 3 && operation !=4) {
